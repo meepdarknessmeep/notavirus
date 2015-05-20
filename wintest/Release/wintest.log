@@ -1,0 +1,18 @@
+﻿Build started 5/14/2015 10:03:08 PM.
+     1>Project "c:\Users\mdm\documents\visual studio 2015\Projects\wintest\wintest\wintest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W3 /WX- /MP /O1 /Ob2 /Oi /Os /Oy /GT /GL /D WIN32 /D NDEBUG /D _CONSOLE /GF /Gm- /MD /Zp1 /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\mdm\documents\visual studio 2015\Projects\wintest\Release\wintest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /PDB:"c:\Users\mdm\documents\visual studio 2015\Projects\wintest\Release\wintest.pdb" /ASSEMBLYDEBUG:DISABLE /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /FIXED /NXCOMPAT /IMPLIB:"c:\Users\mdm\documents\visual studio 2015\Projects\wintest\Release\wintest.lib" /MACHINE:X86 /SAFESEH:NO Release\main.obj
+         Release\mrc.obj
+         Generating code
+         Finished generating code
+     1>main.obj : warning LNK4254: section '.rdata' (40000040) merged into '.fuckme.' (C0000040) with different attributes
+     1>main.obj : warning LNK4254: section '.text' (60000020) merged into '.fuckme.' (C0000040) with different attributes
+         wintest.vcxproj -> c:\Users\mdm\documents\visual studio 2015\Projects\wintest\Release\wintest.exe
+     1>Done Building Project "c:\Users\mdm\documents\visual studio 2015\Projects\wintest\wintest\wintest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20
